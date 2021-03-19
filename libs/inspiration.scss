@@ -1,0 +1,137 @@
+#inspirationActive{
+  background-color: #76280b2f;
+  a{
+  border-bottom: #76280b 1px solid;
+}
+}
+
+@mixin inspi {
+    width: 80%;
+    height: 145px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    margin-bottom: 2%;
+  }
+
+.containerInspi{
+    // border: solid 3px green;
+    margin: auto;
+    margin: 5% 0 5% 0;
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .desk{
+    @include inspi;
+  }
+  #inspiFirst{
+    background-image: url("Images/inspi_bresil.png");
+  }
+  #inspiSecond{
+    background-image: url("Images/inspi_senegal.png");
+  }
+  #inspiThird{
+   background-image: url("Images/inspi_nepal.png");
+ }
+ #inspiFourth{
+   background-image: url("Images/inspi_thailand.png");
+ }
+ #inspiFifth{
+   background-image: url("Images/inspi_australie.png");
+ }
+ .desk{
+     display: flex;
+     justify-content: center;
+ }
+ .desk a{
+   text-decoration: none;
+   display: block;
+   text-align: center;
+   color: rgba(255, 248, 220, 0);
+//    border: red solid 2px;
+   padding-top: 7%
+//    padding: 10%;
+//    color: rgba(255, 255, 255, 0);
+//    height: 100%;
+//    border: rgb(0, 255, 106) 1px solid;
+ }
+ .desk a:hover{
+     background-color: rgba(255, 255, 255, 0.575);
+     color: black;
+     text-transform: uppercase;
+     font-size: 1.5vw;
+     width: 100%;  
+ }
+
+
+
+ @media only screen and (min-width: 550px){
+    #logo{
+        width: 50%;
+    }
+    .desk{
+      height: 250px;
+    }
+    .desk a{
+      &:hover{
+        height: 250px;
+      }
+    }
+  }
+@media only screen and (min-width:780px){
+  nav{
+    display: block;
+  }
+  #logo{
+    width: 30%;
+    margin: auto;
+    border-bottom: 1px solid #76280b;
+    }
+  #logo img{
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width:1024px) {
+  .containerInspi{
+    width: 60%;
+    margin: auto;
+    margin-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+  }
+  .desk{
+    // border: solid 3px red;
+    height: 250px;
+    width: 100%;
+
+  }
+}
+@media only screen and (min-width:1224px) {
+  .containerInspi{
+    width: 50%;
+
+  }
+  .desk{
+    // border: solid 3px red;
+    height: 300px;
+    a:hover{
+      height: 300px;
+    }
+  }
+}
+@media only screen and (min-width:1524px) {
+  .containerInspi{
+    width: 40%;
+
+  }
+  .desk{
+    // border: solid 3px red;
+    height: 500px;
+    a:hover{
+      height: 500px;
+    }
+  }
+}

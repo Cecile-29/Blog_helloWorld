@@ -1,0 +1,50 @@
+//CSS PAGE BRESIL
+#bresilActive{
+    background-color: #76280b2f;
+    a{
+    border-bottom: #76280b 1px solid;
+  }
+  }
+.conteneur{
+    // margin: 11%;
+    margin: auto;
+    margin-top: 3%;
+    // width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteneur h1{
+  margin-left: 11vw;
+  font-size: max(1,5vw, 16px);
+  font-family: 'Montserrat', serif;
+  color: #7F2300;
+}
+.element2,.elememt3, .elememt4, .element5, .element6, .element7{
+  height: 20vh;
+  width: auto;
+  color: #5B2512;
+}
+.conteneur p{
+  text-align: justify;
+  font-family: 'Montserrat';
+}
+.conteneur h2{
+    color: #76280b;
+}
+
+@media only screen and (min-width: 780px){
+    .conteneur{
+        width: 90%;
+    }
+}
+@media only screen and (min-width: 900px){
+    .conteneur{
+        width: 80%;
+    }
+}
+@media only screen and (min-width: 1200px){
+    .conteneur{
+        width: 70%;
+    }
+}

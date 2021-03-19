@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width" initial-scale="1">
+        <title>Hello World, let's exploring it</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Shippori+Mincho+B1:wght@400;500;600;700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;1,100;1,200&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <!--MENU BURGER DE TELEPHONE A TABLETTE-->
+        <div class="conteneurMenuHamburger">
+            <div class="barTop">
+              <a href="#navDeroulante"><i class="fas fa-bars" id="iconeBurger"></i></a>
+            </div>
+            <div class="navDeroulante" id="navDeroulante">
+              <div class="cross">
+                <a href="#"><i class="fas fa-times" id="iconeCross"></i></a>
+              </div>
+              <div class="lienDeNavigation">
+                <div class="liensInterne">
+                    <a href="index.html">Home</a>
+                    <a href="bresil.html">Brésil</a>
+                    <a href="senegal.html">Sénégal</a>
+                    <a href="thailande.html">Thaïlande</a>
+                    <a href="inspiration.html">Inspirations</a>
+                    <a href="contact.html">Contact</a>
+                  </div>
+                <div id="iconSocial">
+                    <a href="http://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="http://www.twitter.com" target="_blank"><i class="fab fa-twitter-square"></i></a>
+                    <a href="http://www.pinterest.com" target="_blank"><i class="fab fa-pinterest"></i></a>
+                    <a href="http://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+                  </div>
+              </div>
+            </div>
+          </div>
+          <!--MENU BURGER DE TELEPHONE A TABLETTE-->
+        <header>
+            <div id="logo">
+                <img src="Images/logo_hello_world.png" alt="Logo de Hello World, un bateau devant un soleil couchant">
+            </div>
+        </header>
+        <!--MENU NAVBAR FIXE POUR DESK-->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="bresil.html">Brésil</a></li>
+                <li><a href="senegal.html">Sénégal</a></li>
+                <li><a href="thailande.html">Thaïlande</a></li>
+                <li><a href="inspiration.html">Inspirations</a></li>
+                <li id="contactActive"><a href="contact.html">Contact</a></li>
+            </ul>
+            <div id="social">
+                <a href="http://facebook.com" target="_blank"><img src="Images/facebook.png" alt="logo facebook"></a>
+                <a href="http://twitter.com" target="_blank"><img src="Images/twitter.png" alt="logo twitter"></a>
+                <a href="http://instagram.com" target="_blank"><img src="Images/instagram.png" alt="logo instagram"></a>
+                <a href="http://pinterest.com" target="_blank"><img src="Images/pinterest.png" alt="logo pinterest"></a>
+            </div>
+        </nav>
+        <!--MENU NAVBAR FIXE POUR DESK-->
+        
+        <!--CONTENU PAGE CONTACT-->
+        <main>
+            <section id="showcase"></section>
+            <section id="contact">
+                <h1>Contactez moi !</h1>
+                <p>Si vous avez une question, une envie de partage, n'hésitez pas, vous êtes au bon endroit...</p>
+            </section>
+            <form action="Post">
+                <label for="nom">Nom</label>
+                <input type="text" id="nom" name="nom">
+                <label for="email">e-mail</label>
+                <input type="text" id="email" name="email">
+                <label for="sujet">Sujet</label>
+                <input type="text" id="sujet" name="sujet">
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" style="height:200px"></textarea>
+                <input type="submit" value="ENVOYER">
+              </form>
+        </main>
+        <!--CONTENU PAGE CONTACT-->
+
+        <!--FOOTER POUR DESK-->
+        <div id="conteneurFooter">
+            <footer>
+                <div id=footer>
+                    <img src="images/facebook.png" alt="logo facebook">
+                    <img src="images/twitter.png" alt="logo twitter">
+                    <img src="images/instagram.png" alt="logo instagram">
+                    <img src="images/pinterest.png" alt="logo pinterest">
+                </div>
+                <p>&copy; 2021 HelloWorld.com</p>
+            </footer>
+        </div> 
+        <!--FOOTER POUR DESK--> 
+    </body>
+    <script src="https://kit.fontawesome.com/8e02a7b303.js" crossorigin="anonymous"></script>
+</html>

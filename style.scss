@@ -1,0 +1,130 @@
+@import "libs/inspiration.scss";
+@import "libs/contact.scss";
+@import "libs/bresil.scss";
+@import "libs/thailande.scss";
+@import "libs/senegal.scss";
+@import "libs/home.scss";
+@import "libs/menuBurger.scss";
+
+//REGLES GENERALES
+body{
+    p, label, a, li {
+        font-family: 'Montserrat', sans-serif;
+        font-size: max(1.5vw, 18px);
+        color: black;
+        text-decoration: none;
+    }
+    a, li{
+        font-family: 'Shippori', sans-serif;
+    }
+    h1, .paysTitle{
+        font-family: 'Caveat', cursive;
+        font-size: max(2vw, 25px);
+    }
+}
+
+//REGLE LOGO
+#logo{
+    width: 60%;
+    margin: auto;
+    border-bottom: 1px solid #76280b;
+    margin-top: 6vh;
+
+} 
+#logo img{
+    max-width: 100%;
+    height: auto;
+}
+//FIN REGLE LOGO
+
+
+//REGLE NAVBAR DISPLAY SUR DESK
+nav{
+    display: none;
+    margin-top: 3%;
+    ul{
+      display: flex;
+      justify-content: center;
+      box-shadow: 1px 1px 3px grey;
+      li{
+        list-style: none;
+        padding: 1%;
+        padding-left: 3%;
+        padding-right: 3%;
+        text-transform: uppercase;
+        &:hover{
+            background-color: rgba(233, 231, 230, 0.335);
+        }
+      }
+    }
+}
+#social{
+    padding-top: 1%;
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    a{
+        // width: 80%;
+        img{
+        min-width: 30%;
+        max-width: 30%;
+        }
+    }
+}
+//FIN REGLE NAVBAR DISPLAY SUR DESK
+
+//MEDIA QUERIES LOGO ET NAV
+@media only screen and (min-width:780px){
+    nav{
+        display: block;
+    }
+ 
+    #logo{
+    width: 15%;
+    } 
+    nav ul li a{
+        font-size: 1.4vw;
+    }
+}
+@media only screen and (min-width: 550px){
+    #logo{
+        width: 40%;
+    }
+}  
+@media only screen and (min-width: 900px){
+    #logo{
+        width: 25%;
+    }
+    nav ul li a{
+        font-size: 1.2vw;
+    }
+}  
+
+//REGLE FOOTER
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 1px 3px grey;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 1vw;
+}
+  #footer{
+    padding-top: 1%;
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    img{
+      min-width: 8%;
+      max-width: 8%;
+    }
+  }
+ @media only screen and (min-width:780px){
+    #conteneurFooter{
+        display: block;
+    } 
+ }

@@ -1,0 +1,734 @@
+#inspirationActive {
+  background-color: #76280b2f;
+}
+#inspirationActive a {
+  border-bottom: #76280b 1px solid;
+}
+
+.containerInspi {
+  margin: auto;
+  margin: 5% 0 5% 0;
+  width: 97%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.desk {
+  width: 80%;
+  height: 145px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+#inspiFirst {
+  background-image: url("Images/inspi_bresil.png");
+}
+
+#inspiSecond {
+  background-image: url("Images/inspi_senegal.png");
+}
+
+#inspiThird {
+  background-image: url("Images/inspi_nepal.png");
+}
+
+#inspiFourth {
+  background-image: url("Images/inspi_thailand.png");
+}
+
+#inspiFifth {
+  background-image: url("Images/inspi_australie.png");
+}
+
+.desk {
+  display: flex;
+  justify-content: center;
+}
+
+.desk a {
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  color: rgba(255, 248, 220, 0);
+  padding-top: 7%;
+}
+
+.desk a:hover {
+  background-color: rgba(255, 255, 255, 0.575);
+  color: black;
+  text-transform: uppercase;
+  font-size: 1.5vw;
+  width: 100%;
+}
+
+@media only screen and (min-width: 550px) {
+  #logo {
+    width: 50%;
+  }
+
+  .desk {
+    height: 250px;
+  }
+
+  .desk a:hover {
+    height: 250px;
+  }
+}
+@media only screen and (min-width: 780px) {
+  nav {
+    display: block;
+  }
+
+  #logo {
+    width: 30%;
+    margin: auto;
+    border-bottom: 1px solid #76280b;
+  }
+
+  #logo img {
+    max-width: 100%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .containerInspi {
+    width: 60%;
+    margin: auto;
+    margin-top: 4%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .desk {
+    height: 250px;
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1224px) {
+  .containerInspi {
+    width: 50%;
+  }
+
+  .desk {
+    height: 300px;
+  }
+  .desk a:hover {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 1524px) {
+  .containerInspi {
+    width: 40%;
+  }
+
+  .desk {
+    height: 500px;
+  }
+  .desk a:hover {
+    height: 500px;
+  }
+}
+#contactActive {
+  background-color: #76280b2f;
+}
+#contactActive a {
+  border-bottom: #76280b 1px solid;
+}
+
+#contact {
+  margin: auto;
+  width: 90%;
+  text-align: center;
+}
+#contact h1 {
+  color: #76280b;
+}
+
+#showcase {
+  margin: auto;
+  margin-top: 3%;
+  width: 98%;
+  height: 250px;
+  background: url(Images/showcase_contact2.png);
+  background-size: cover;
+}
+
+form {
+  margin: auto;
+  width: 80%;
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  padding: 1%;
+}
+label:focus, input:focus, textarea:focus {
+  border: rgba(59, 11, 11, 0.986) solid 1px;
+}
+
+input, textarea {
+  margin-bottom: 4%;
+}
+
+input[type=submit] {
+  color: white;
+  background-color: rgba(59, 11, 11, 0.774);
+  width: 40%;
+  padding: 3%;
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 5%;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 3%;
+}
+
+input[type=submit]:hover {
+  background-color: rgba(59, 11, 11, 0.986);
+}
+
+@media only screen and (min-width: 550px) {
+  #showcase {
+    height: 300px;
+  }
+}
+@media only screen and (min-width: 780px) {
+  #showcase {
+    height: 400px;
+  }
+
+  form {
+    width: 70%;
+  }
+}
+@media only screen and (min-width: 1050px) {
+  #showcase {
+    height: 550px;
+  }
+
+  form {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  #showcase {
+    height: 700px;
+  }
+
+  form {
+    width: 50%;
+  }
+}
+#bresilActive {
+  background-color: #76280b2f;
+}
+#bresilActive a {
+  border-bottom: #76280b 1px solid;
+}
+
+.conteneur {
+  margin: auto;
+  margin-top: 3%;
+  display: flex;
+  flex-direction: column;
+}
+
+.conteneur h1 {
+  margin-left: 11vw;
+  font-size: max(1, 5vw, 16px);
+  font-family: "Montserrat", serif;
+  color: #7F2300;
+}
+
+.element2, .elememt3, .elememt4, .element5, .element6, .element7 {
+  height: 20vh;
+  width: auto;
+  color: #5B2512;
+}
+
+.conteneur p {
+  text-align: justify;
+  font-family: "Montserrat";
+}
+
+@media only screen and (min-width: 780px) {
+  .conteneur {
+    width: 90%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  .conteneur {
+    width: 80%;
+  }
+}
+@media only screen and (min-width: 1200px) {
+  .conteneur {
+    width: 70%;
+  }
+}
+#thailandeActive {
+  background-color: #76280b2f;
+}
+#thailandeActive a {
+  border-bottom: #76280b 1px solid;
+}
+
+#containerThai {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 2%;
+  width: 80%;
+}
+#containerThai h2 {
+  color: #76280b;
+  text-align: center;
+}
+
+#image1 {
+  display: flex;
+  flex-flow: column;
+  padding: 5px;
+  margin: auto;
+}
+#image1 img {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+
+#image1 figcaption {
+  background-color: rgba(34, 34, 34, 0.76);
+  color: #fff;
+  font-style: italic;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+#image2 {
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  height: 60vh;
+  width: 100%;
+}
+
+#image2 img {
+  height: 27vh;
+  margin: auto;
+}
+
+.picture {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+.picture figcaption {
+  background-color: rgba(34, 34, 34, 0.76);
+  color: #fff;
+  font-style: italic;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+  font-size: 1vh;
+}
+
+.video {
+  width: 80%;
+  margin: auto;
+}
+.video video {
+  width: 100%;
+  margin: auto;
+}
+
+#senegalActive {
+  background-color: #76280b2f;
+}
+#senegalActive a {
+  border-bottom: #76280b 1px solid;
+}
+
+.article {
+  margin: 0;
+}
+
+.box p {
+  font-size: 1.5vw;
+  padding: 20px 10px 0 20px;
+}
+@media screen and (min-width: 1024px) {
+  .box p {
+    line-height: 30px;
+  }
+}
+
+h2 {
+  margin-left: 20px;
+  padding-top: 20px;
+  letter-spacing: 5px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.box img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  margin-top: 5px;
+  display: flex;
+}
+
+#logo {
+  width: 70%;
+  margin: auto;
+  border-bottom: 1px solid #76280b;
+}
+#logo img {
+  max-width: 100%;
+}
+@media only screen and (min-width: 550px) {
+  #logo {
+    width: 50%;
+  }
+}
+
+#imageAccueil {
+  width: 100%;
+  height: 250px;
+  background-image: url("Images/persona.png");
+  background-size: cover;
+  margin-top: 3%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+#homeActive {
+  background-color: #76280b2f;
+}
+#homeActive a {
+  border-bottom: #76280b 1px solid;
+}
+
+#presentation {
+  width: 95%;
+  margin: auto;
+  text-align: justify;
+  line-height: 7vw;
+}
+#presentation h1 {
+  text-align: center;
+}
+
+#presTexte {
+  border-left: 1px solid #76280b;
+  padding-left: 4%;
+}
+
+#citation {
+  text-align: center;
+  color: #76280b;
+}
+
+/* Tablette */
+@media only screen and (min-width: 768px) {
+  #imageAccueil {
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 550px) {
+  #logo {
+    width: 50%;
+  }
+
+  #imageAccueil {
+    height: 350px;
+  }
+}
+@media only screen and (min-width: 780px) {
+  nav {
+    display: block;
+  }
+
+  #logo {
+    width: 40%;
+    margin: auto;
+    border-bottom: 1px solid #76280b;
+  }
+
+  #logo img {
+    max-width: 100%;
+  }
+
+  #presentation {
+    width: 80%;
+    line-height: 5vw;
+  }
+}
+@media screen and (min-width: 950px) {
+  #imageAccueil {
+    height: 450px;
+    background-image: url(Images/Capture_decran_2021-03-15_a_16.42.35.png) fixed;
+  }
+
+  #presentation {
+    width: 70%;
+    line-height: 3vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #imageAccueil {
+    height: 700px;
+  }
+
+  #presentation {
+    width: 60%;
+    line-height: 3vw;
+  }
+}
+@media screen and (min-width: 2000px) {
+  #imageAccueil {
+    height: 1000px;
+  }
+
+  #presentation {
+    width: 60%;
+    line-height: 2vw;
+  }
+}
+@media screen and (min-width: 2500px) {
+  #imageAccueil {
+    height: 1200px;
+  }
+
+  #presentation {
+    width: 60%;
+  }
+}
+@media only screen and (min-width: 780px) {
+  .conteneurMenuHamburger {
+    display: none;
+  }
+}
+@media only screen and (max-width: 780px) {
+  .conteneurMenuHamburger {
+    display: block;
+  }
+}
+.conteneurMenuHamburger {
+  background-color: lightgrey;
+}
+
+.barTop {
+  position: fixed;
+  background-color: rgba(255, 255, 255, 0.733);
+  height: 6vh;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.barTop #iconeBurger {
+  float: right;
+  font-size: 5vh;
+  padding-top: 0.7vh;
+  padding-right: 1.7vh;
+  color: #76280b;
+}
+
+.navDeroulante {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.cross {
+  background-color: #76280b;
+  height: 80px;
+}
+.cross #iconeCross {
+  float: right;
+  font-size: 6vh;
+  padding-top: 1.7vh;
+  padding-right: 2vh;
+  color: white;
+}
+
+.lienDeNavigation {
+  background-color: #76280bed;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.liensInterne {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.liensInterne a {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 4vh;
+  font-family: "Montserrat";
+  letter-spacing: 0.8vw;
+  color: white;
+  padding: 4vh;
+}
+
+#iconSocial {
+  margin-top: 4vh;
+  display: flex;
+  justify-content: center;
+}
+#iconSocial a {
+  font-size: 3.5vh;
+  padding-right: 5vw;
+  padding-left: 5vw;
+  color: white;
+}
+
+.navDeroulante {
+  display: none;
+}
+
+.navDeroulante:target {
+  display: block;
+}
+
+body p, body label, body a, body li {
+  font-family: "Montserrat", sans-serif;
+  font-size: max(1.5vw, 18px);
+  color: black;
+  text-decoration: none;
+}
+body a, body li {
+  font-family: "Shippori", sans-serif;
+}
+body h1, body .paysTitle {
+  font-family: "Caveat", cursive;
+  font-size: max(2vw, 25px);
+}
+
+.paysTitle {
+  margin-top: 10%;
+  text-align: center;
+  font-size: 50%;
+}
+.paysTitle img {
+  min-width: 30px;
+  max-width: 30px;
+  height: auto;
+}
+
+#logo {
+  width: 60%;
+  margin: auto;
+  border-bottom: 1px solid #76280b;
+  margin-top: 6vh;
+}
+
+#logo img {
+  max-width: 100%;
+  height: auto;
+}
+
+nav {
+  display: none;
+  margin-top: 3%;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  box-shadow: 1px 1px 3px grey;
+}
+nav ul li {
+  list-style: none;
+  padding: 1%;
+  padding-left: 3%;
+  padding-right: 3%;
+  text-transform: uppercase;
+}
+nav ul li:hover {
+  background-color: rgba(233, 231, 230, 0.335);
+}
+
+#social {
+  padding-top: 1%;
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+#social a img {
+  min-width: 30%;
+  max-width: 30%;
+}
+
+@media only screen and (min-width: 780px) {
+  nav {
+    display: block;
+  }
+
+  #logo {
+    width: 15%;
+  }
+
+  nav ul li a {
+    font-size: 1.4vw;
+  }
+}
+@media only screen and (min-width: 550px) {
+  #logo {
+    width: 40%;
+  }
+}
+@media only screen and (min-width: 900px) {
+  #logo {
+    width: 25%;
+  }
+
+  nav ul li a {
+    font-size: 1.2vw;
+  }
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 1px 3px grey;
+  text-align: center;
+  margin-top: 4%;
+  font-size: 1vw;
+}
+
+#footer {
+  padding-top: 1%;
+  width: 20%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+#footer img {
+  min-width: 8%;
+  max-width: 8%;
+}
+
+@media only screen and (min-width: 780px) {
+  #conteneurFooter {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

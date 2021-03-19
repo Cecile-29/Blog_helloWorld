@@ -1,0 +1,84 @@
+//CSS PAGE THAILANDE 
+#thailandeActive{
+    background-color: #76280b2f;
+    a{
+    border-bottom: #76280b 1px solid;
+  }
+}
+#containerThai{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    margin-top: 2%;
+    width: 80%;
+
+    h2{
+        color: #76280b;
+        text-align: center;
+        font-size: 10%;
+    }
+}
+
+#image1{
+    // border: solid 3px yellow;
+    display: flex;
+    flex-flow: column;
+    padding: 5px;
+    margin: auto;
+    // flex-wrap: nowrap;
+    img{
+     // border: solid 3px green;
+     width: 50%;
+     height: auto;
+     margin: auto;
+    }
+}
+#image1 figcaption {
+    background-color: rgba(#222222, 0.76);
+    color: #fff;
+    font-style: italic;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+  
+#image2{
+    // border: solid 3px cyan;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    height: 60vh;
+    width: 100%;
+  
+}
+#image2 img{
+    // width: 100%;
+    height: 27vh;
+    margin: auto;
+}
+.picture{
+     display: flex;
+     flex-direction: column;
+     margin: auto;
+     figcaption{
+       background-color: rgba(#222222, 0.76);
+       color: #fff;
+       font-style: italic;
+       text-align: center;
+       width: 100%;
+       margin: auto;
+       font-size: 1vh;
+     }
+}
+.video{
+    // border: solid 3px purple;
+    width: 80%;
+    margin:auto;
+      video{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+
+  

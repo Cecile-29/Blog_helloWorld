@@ -1,0 +1,90 @@
+    
+//CSS PAGE CONTACT + MEDIA QUERIES 
+#contactActive{
+    background-color: #76280b2f;
+    a{
+    border-bottom: #76280b 1px solid;
+  }
+  }
+#contact{
+    margin: auto;
+    width: 90%;
+    text-align: center;
+    h1{
+      color: #76280b;  
+    }
+}
+
+#showcase{
+    margin: auto;
+    margin-top: 3%;
+    width: 98%;
+    height: 250px;
+    background: url(Images/showcase_contact2.png);
+    background-size: cover;
+}
+form{
+    margin: auto;
+    width: 80%;
+}
+label, input, textarea{
+    display: block;
+    width: 100%;
+    padding: 1%;
+    &:focus{
+        border: rgba(59, 11, 11, 0.986) solid 1px;
+    }
+}
+input, textarea{
+    margin-bottom: 4%;
+}
+
+input[type="submit"]{
+    color: rgb(255, 255, 255);
+    background-color: rgba(59, 11, 11, 0.774);
+    width: 40%;
+    padding: 3%;
+    margin: auto;
+    margin-top: 5%;
+    border-radius: 5%;
+    font-weight: bold; 
+    cursor: pointer;
+    margin-bottom: 3%;
+}
+input[type="submit"]:hover{
+    background-color: rgba(59, 11, 11, 0.986);
+    // font-size: 1.1vw;
+}
+
+//MEDIA QUERIES PAGE CONTACT
+@media only screen and (min-width: 550px){
+    #showcase{
+        height: 300px;
+    }
+}
+
+@media only screen and (min-width:780px){
+    #showcase{
+        height: 400px;
+    }
+    form{
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width:1050px){
+    #showcase{
+        height: 550px;
+    }
+    form{
+        width: 60%;
+    }
+}
+@media only screen and (min-width:1900px){
+    #showcase{
+        height: 700px;
+    }
+    form{
+        width: 50%;
+    }
+}

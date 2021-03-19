@@ -1,0 +1,127 @@
+//CSS HOMEPAGE
+#imageAccueil{
+    width: 100%;
+    height: 250px;
+    // border: 2px solid black;
+    background-image: url("Images/persona.png");
+    background-size: cover;
+    margin-top:3%;
+    display:flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+// @media only screen and (min-width:768px){
+//   #imageAccueil{
+//     height: 350px;
+//     background-attachment: fixed;
+//   }
+// }
+// @media only screen and (min-width:1024px){
+//   #imageAccueil{
+//     height: 560px;
+//   }
+// }
+
+#homeActive{
+  background-color: #76280b2f;
+  a{
+  border-bottom: #76280b 1px solid;
+}
+}
+
+
+#presentation{
+    width: 95%;
+    margin: auto;
+    text-align: justify;
+    line-height: 7vw;
+    h1{
+        text-align: center;
+    }
+}
+#presTexte{
+  border-left: 1px solid #76280b;
+  padding-left: 4%;
+}
+
+#citation{
+        // font-size: 32px;
+        text-align: center;
+        color: #76280b;
+}
+
+  /* Tablette */
+  @media only screen and (min-width:768px) {
+    #imageAccueil{
+      height:350px;
+
+    }
+  }
+  @media only screen and (min-width: 550px){
+    #logo{
+        width: 50%;
+      }
+    #imageAccueil{
+      height: 350px;
+    }  
+
+}
+// Nav
+@media only screen and (min-width:780px){
+    nav{
+        display: block;
+    }
+
+    #logo{
+    width: 40%;
+    margin: auto;
+    border-bottom: 1px solid #76280b;
+    } 
+    #logo img{
+    max-width: 100%;
+    }
+    #presentation{
+        width: 80%;
+        line-height: 5vw;
+    }
+}
+
+@media screen and (min-width: 950px) {
+  #imageAccueil{
+    height:450px;
+    // background-attachment: fixed;
+    background-image: url(Images/Capture_decran_2021-03-15_a_16.42.35.png) fixed;
+    // background-size: cover;
+  }
+  #presentation{
+      width: 70%;
+      line-height: 3vw;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #imageAccueil{
+    height:700px;
+  }
+  #presentation{
+      width: 60%;
+      line-height: 3vw;
+  }
+}
+@media screen and (min-width: 2000px) {
+    #imageAccueil{
+      height:1000px;
+    }
+    #presentation{
+        width: 60%;
+        line-height: 2vw;
+    }
+  }
+  @media screen and (min-width: 2500px) {
+    #imageAccueil{
+      height:1200px;
+    }
+    #presentation{
+        width: 60%;
+    }
+  }

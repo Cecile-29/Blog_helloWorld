@@ -1,0 +1,54 @@
+//CSS PAGE SENEGAL
+#senegalActive{
+    background-color: #76280b2f;
+    a{
+    border-bottom: #76280b 1px solid;
+  }
+  }
+.article{
+    margin: 0;
+  }
+  
+  .box p{
+    font-size: 1.5vw;
+    padding: 20px 10px 0 20px;
+    @media screen and (min-width: 1024px){
+      line-height: 1.1vw; //espace entre les lignes
+    }
+   }
+  
+   h2{
+     margin-left:20px;
+     padding-top:20px;
+     letter-spacing:5px;
+     color:#76280b;
+    
+   }
+    .container{
+      width:100%;
+      display: flex;
+      flex-direction: column;
+    }
+  
+    .box img{
+      width: 100%;
+      height: 350px;
+  
+      object-fit: cover; //concerne uniquement les balises <img/>
+      margin-top:5px;
+      display:flex;
+    
+    }
+    
+    
+    #logo {
+      width: 70%;
+      margin: auto;
+      border-bottom: 1px solid #76280b;
+      img {
+        max-width: 100%;
+      }
+      @media only screen and (min-width: 550px){
+        width: 50%;
+      }
+    }
